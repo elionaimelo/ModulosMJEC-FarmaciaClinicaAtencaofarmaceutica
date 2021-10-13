@@ -1,0 +1,155 @@
+$cor1: #6c29ed;
+
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  color: rgba(0, 0, 0, 0.6);
+  position: relative;
+  min-height: 100vh;
+  font-family: "Fira Sans", sans-serif;
+}
+
+.header {
+  padding: 101px 0px 115px;
+  background-image: url(../images/farmacia.png);
+  background-size: cover;
+
+  h1 {
+    font-size: 50px;
+    font-weight: 300;
+    color: #fff;
+    text-align: left;
+  }
+
+  .highlight {
+    color: #cad2ff;
+  }
+}
+
+section {
+  display:none;
+  padding: 10px;
+  border-style: solid;
+  margin-bottom: 5px;
+}
+.totop {
+  position: fixed;
+  bottom: 10px;
+  right: 20px;
+}
+.totop a {
+  display: none;
+}
+a,
+a:visited {
+  color: $cor1;
+  text-decoration: none;
+  display: block;
+  margin: 10px 0;
+}
+a:hover {
+  text-decoration: none;
+}
+#loadMore {
+  padding: 15px 40px;
+  margin: 20px 0;
+  border-radius: 10px;
+  text-align: center;
+  background-color: $cor1;
+  color: #fff;
+  border-width: 0 1px 1px 0;
+  border-style: solid;
+  border-color: #fff;
+  box-shadow: 0 1px 1px #ccc;
+  transition: all 0.2s ease-in-out;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  display: inline-block;
+}
+#loadMore:hover {
+  background-color: #fff;
+  color: $cor1;
+}
+
+h1 {
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 48px;
+  overflow-wrap: break-word;
+  word-break: break-word;
+  color: $cor1;
+  margin: 30px 0;
+}
+
+p {
+  margin-top: 2em;
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 29px;
+}
+
+.aux1 {
+  margin-top: 2em;
+}
+
+.aux1 p {
+  line-height: 14px;
+  margin-top: 0;
+}
+
+.figure {
+  margin-top: 50px;
+  margin-bottom: 50px;
+
+  small {
+    margin-top: 15px;
+  }
+}
+
+.box,
+.box-tips,
+.box-example {
+  position: relative;
+  border: 3px solid $cor1;
+  padding: 31px;
+  border-radius: 8px;
+  margin: 80px 0 40px 0;
+  color: $cor1;
+  font-weight: 400;
+
+  .icon-tips,
+  .icon-example {
+    position: absolute;
+    top: -51px;
+    left: 16px;
+    img {
+      width: 70px;
+    }
+    span {
+      font-size: 35px;
+      font-weight: 500;
+    }
+  }
+}
+
+.box {
+  margin: 30px 0;
+}
+
+.table-custom {
+  width: 600px;
+  margin: 30px auto 10px auto;
+  border-radius: 8px;
+
+  thead {
+    background: #6c29ed;
+    color: #fff;
+  }
+}
