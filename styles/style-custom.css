@@ -1,0 +1,15 @@
+.figure {
+  max-width: 70%;
+}
+
+.box, .box-tips, .box-example {
+  max-width: 60%;
+  margin: 100px auto;
+}
+
+
+@media screen and (max-width: 600px) {
+  .figure {
+    max-width: 100%;
+  }
+}
